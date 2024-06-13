@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
+<suite name="Suite">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+
+  <!-- <listeners>
+  	<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />    
+  </listeners>-->
+
+  <!-- <test thread-count="5" name="Test"> -->
+  <test name="First Test">
+  	<parameter name ="browserType" value="chrome"/>
+    <classes>
+
+		    <class name = "mx.com.ares.testcases.cronos.PantallaAgregarSuscripcionIndividualFuncional"/>
+	 
+	  <!--<class name="mx.com.ares.testcases.miinformacion.PantallaConoceTuReciboDisenoF"/>
+	  
+	  <class name = "mx.com.ares.testcases.ventamanual.PantallaVentaManualFuncionalF"/>
+	  
+	  <class name = "mx.com.ares.testcases.cronos.PantallaAgregarSuscripcionIndividualFuncional"/>
+	  <class name = "mx.com.ares.testcases.cronos.PantallaSuscripcionGrupalFuncionalCr"/>
+	  <class name = "mx.com.ares.testcases.cronos.PantallaLoginDisenoCr"/>
+	  <class name = "mx.com.ares.testcases.cronos.PantallaDashboardFuncionalCr"/>
+	  <class name = "mx.com.ares.testcases.cronos.PantallaSuscripcionGrupalFuncionalCr"/>
+	  	<class name = "mx.com.ares.testcases.cronos.PantallasuscripcionIndividualDisenocr"/>
+	  	<class name = "mx.com.ares.testcases.cronos.PantallaSuscripcionGrupaldisenoCr"/>
+	  	<class name = "mx.com.ares.testcases.cronos.PantallaDashboardDisenoCr"/>
+	  	<class name = "mx.com.ares.testcases.cronos.PantallaLoginDisenoCr"/>
+	  <class name = "mx.com.ares.testcases.cronos.PantallaAgregarSuscripcionIndividualFuncional"/>
+	  <class name="mx.com.ares.testcases.producto.PantallaProductosFuncionalFe"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaConoceTuReciboFuncionalF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionBancariaDisenoF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionBancariaFuncionalF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionDireccionDisenoF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionDireccionFuncionalF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionDisenoF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionDisenoIn"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFacturacionDisenoF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFacturacionFuncionalF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFacturacionFuncionalIn"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFuncionalF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFuncionalIn"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFuncionalPersonaFisicaF"/>
+	  <class name="mx.com.ares.testcases.miinformacion.PantallaMiInformacionFuncionalPersonaMoralF"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenaDisenoBA"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenaDisenoF"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenaDisenoIn"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenaFuncionalBA"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenaFuncionalF"/>
+	  <class name="mx.com.ares.testcases.olvidemicontrasena.PantallaOlvideMiContrasenafuncionalIn"/>
+      <class name="mx.com.ares.testcases.PantallaLoginDiseno"/>
+      <class name="mx.com.ares.testcases.PantallaLoginDisenoIn"/>
+      <class name="mx.com.ares.testcases.PantallaLoginFuncionalF"/>
+      <class name="mx.com.ares.testcases.PantallaLoginFuncionalIn"/>
+      <class name="mx.com.ares.testcases.nuevoregistro.NuevoRegistroFuncionalIn"/>
+      <class name="mx.com.ares.testcases.nuevoregistro.PantallaRegistroDisenoIn"/>
+      <class name="mx.com.ares.testcases.ventadispositivo.PantallaVentaDispositivoFuncionalF"/>
+      <class name="mx.com.ares.testcases.ventamanual.PantallaVentaManualFuncionalF"/>
+      <class name="mx.com.ares.testcases.nuevoregistro.NuevoRegistroFuncionalF"/>
+      <class name="mx.com.ares.testcases.nuevoregistro.PantallaRegistroDisenoF"/>-->    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
